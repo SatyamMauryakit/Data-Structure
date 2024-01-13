@@ -33,10 +33,11 @@ void bubble_sort(int *a, int n)
 }
 int main()
 {
-    
+
     int a[] = {10, 42, 1, 53, 2, 5};
     int n = 6;
     printArray(a, n);
     bubble_sort(a, n);
     printArray(a, n);
+    
 }
